@@ -206,12 +206,22 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-            background-color: #2e0909;
-            border-bottom: 1px solid #1f0000;
+            background-color: #852a2a;
+            border-bottom: 1px solid #751f1f;
     
             &:hover {
-                color: #fff;
-                background-color: #1f0000;
+                background-color: #751f1f;
+            }
+
+            a {
+                display: flex;
+                width: 100%;
+                height: 100%;
+                justify-content: center; 
+                
+                &:hover {
+                    color: rgb(253, 213, 213);
+                }
             }
         }
     }
@@ -220,22 +230,10 @@
         top: -44px;
         right: 0;
         color: #fff !important;
+
+        &:active {
+            top: -44px;
+        }
     }
     
-}
-
-@media screen and (max-width: 550px) {
-    #slider3 {
-
-        .workers {
-            width: 100%;
-            margin-left: 69px;
-        }
-
-        .workers-txt {
-            width: 100%;
-            height: auto;
-        }
-    }
-
 }
